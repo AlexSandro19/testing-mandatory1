@@ -14,8 +14,3 @@ steps:
     inputs:
       versionSpec: "12.x"
     displayName: "Install Node.js"
-
-  - script: |
-      yarn install
-
-    displayName: "install dependencies"
